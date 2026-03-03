@@ -4,16 +4,16 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: MarbletEnglandTravelGuide
+      app_store_connect: NovaScotiaIslandGuide
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.alinaduvanovaapp
+        bundle_identifier: com.davidbennellapp
       vars:
-        BUNDLE_ID: "com.alinaduvanovaapp"
-        XCODE_WORKSPACE: "EnglandTravelGuide.xcodeproj/project.xcworkspace"
-        XCODE_SCHEME: "EnglandTravelGuide"
-        APP_STORE_APPLE_ID: 6759449556
+        BUNDLE_ID: "com.davidbennellapp"
+        XCODE_WORKSPACE: "NovaScotiaApp.xcodeproj/project.xcworkspace"
+        XCODE_SCHEME: "NovaScotiaApp"
+        APP_STORE_APPLE_ID: 6759976770
       xcode: latest
       cocoapods: default
     scripts:
