@@ -16,7 +16,7 @@ struct PlaceItem: Identifiable, Hashable {
     let description: String
 }
 
-private let categories = ["All", "Dining", "Beaches", "Diving", "Food & Cafes", "Scenic Trails", "Casino & Entertainment"]
+private let categories = ["All", "Dining", "Beaches", "Diving", "Snorkeling", "Food & Cafes", "Scenic Trails", "Scenic Viewpoints", "Casino & Entertainment"]
 
 struct HomeView: View {
     @State private var selectedCategoryIndex = 0
